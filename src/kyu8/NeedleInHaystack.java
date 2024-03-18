@@ -7,7 +7,7 @@ package kyu8;
  * Напишите функцию findNeedle(), которая принимает массив, полный мусора, но содержащий одну "иглу"
  * После того, как ваша функция найдет иглу, она должна вернуть сообщение (в виде строки), в котором говорится: *
  * "found the needle at position " плюс индекс, по которому была найдена игла, так что:
- * 
+ *
  * Example(Input --> Output)
  * ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5"
  */
