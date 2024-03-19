@@ -1,2 +1,19 @@
-package kyu8;public class SentenceSmash {
+package kyu8;
+
+/**
+ * Разбивка предложения
+ *
+ * Напишите функцию, которая принимает массив слов,
+ * разбивает их вместе в предложение и возвращает предложение.
+ * Вы можете игнорировать любую необходимость в очистке слов или добавлении знаков препинания,
+ * но вы должны добавлять пробелы между каждым словом.
+ * Будьте осторожны, в начале или конце предложения не должно быть пробелов!
+ *
+ * Example
+ * ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
+ */
+public class SentenceSmash {
+    public static String smash(String... words) {
+        return String.join(" ", words).trim();
+    }
 }
