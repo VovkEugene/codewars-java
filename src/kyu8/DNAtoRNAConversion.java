@@ -22,6 +22,6 @@ package kyu8;
  */
 public class DNAtoRNAConversion {
     public String dnaToRna(String dna) {
-        return dna.replace('T','U');  
+        return dna.replace('T','U');
     }
 }
