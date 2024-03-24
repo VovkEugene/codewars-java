@@ -1,10 +1,5 @@
 package kyu7;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 /**
  * Количество гласных
  * <p>
