@@ -19,7 +19,7 @@ public class HighestAndLowest {
             if (max < temp) {
                 max = temp;
             }
-            
+
             if (min > temp) {
                 min = temp;
             }
