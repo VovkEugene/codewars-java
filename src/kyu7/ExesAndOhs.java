@@ -40,4 +40,15 @@ public class ExesAndOhs {
         return map.getOrDefault('x', 0)
                 .equals(map.getOrDefault('o', 0));
     }
+
+//    static boolean getXO(String str) {
+//        final Integer sum = str.chars()
+//                .map(ch -> switch (Character.toLowerCase(ch)) {
+//                    case 'x' -> 1;
+//                    case 'o' -> -1;
+//                    default -> 0;
+//                })
+//                .sum();
+//        return sum.equals(0);
+//    }
 }
