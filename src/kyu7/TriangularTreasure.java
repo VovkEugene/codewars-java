@@ -17,16 +17,18 @@ package kyu7;
  * 2 --> 3
  * 3 --> 6
  * -10 --> 0
+ * https://ru.wikipedia.org/wiki/Треугольное_число
  */
 public class TriangularTreasure {
     public static long triangular(long n) {
-        long result = 0;
-
-        while (n > 0) {
-            result += n;
-            n--;
-        }
-
-        return result;
+//        long result = 0;
+//
+//        while (n > 0) {
+//            result += n;
+//            n--;
+//        }
+//
+//        return result;
+        return n > 0 ? n * (n + 1) / 2 : 0;
     }
 }
