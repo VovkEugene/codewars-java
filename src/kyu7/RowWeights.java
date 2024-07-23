@@ -1,8 +1,5 @@
 package kyu7;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
 /**
  * Вес строк
  * <p>
