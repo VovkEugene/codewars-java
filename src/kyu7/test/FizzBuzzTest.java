@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class FizzBuzzTest {
-
     @Test
     @DisplayName("Test n=3 → [\"1\", \"2\", \"Fizz\"]")
     void testFizzCase() {

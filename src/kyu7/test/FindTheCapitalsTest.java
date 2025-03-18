@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class FindTheCapitalsTest {
-
     @Test
     @DisplayName("Should return indices of uppercase letters for mixed case string")
     void testMixedCaseString() {

@@ -11,6 +11,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class FriendOrFoeTest {
+
     @Test
     @DisplayName("Should filter names with exactly 4 characters")
     void testFriendFiltering() {

@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class SummingNumberDigitsTest {
-
     @Test
     @DisplayName("Test basic example: 10 → 1")
     void testBasicExample1() {
